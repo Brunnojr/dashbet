@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: poppins, sans-serif; }
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins', sans-serif;
+}
+
+@font-face {
+	font-family: poppins-medium;
+	src: url(assets/fonts/Poppins/Poppins-Medium.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: poppins;
+	src: url(assets/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+}
+
+.sidenav-container {
+	background-image: url(./assets/img/bg.png);;
+}
+
+.mat-card-header-text {
+	margin: 0 !important;
+}
+
+.green {
+	color: #18bb4b !important;
+}
