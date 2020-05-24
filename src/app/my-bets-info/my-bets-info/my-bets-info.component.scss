@@ -1,0 +1,42 @@
+.graphic-holder {
+	text-align: left;
+	margin: 0 0 25px;
+	border-bottom: 1px solid #e8dddc;
+	padding: 0 0 25px;
+
+	.variation {
+		// display: inline-block;
+		float: right;
+		.arrow-holder {
+			display: inline-block;
+			width: 35px;
+			height: 35px;
+			background-color: #18bb4b;
+			color: #fff;
+			vertical-align: top;
+			float: right;
+			border-radius: 5px;
+		
+			.material-icons {
+				font-size: 35px;
+			}
+		}
+
+		.percent {
+			text-align: center;
+			color: #18bb4b;
+		}
+	}
+	
+}
+
+.text {
+	font-size: 14px;
+	color: #8d99a3;
+	text-align: left;
+	margin: 0 0 10px;
+	span {
+		color: #404447;
+		float: right;
+	}
+}

@@ -17,6 +17,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { BalanceInfoComponent } from './balance-info/balance-info.component';
 import { DashboardModule } from './dashboard/dashboard.module';
+import { MyBetsInfoModule } from './my-bets-info/my-bets-info.module';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
-    DashboardModule
+    DashboardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

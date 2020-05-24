@@ -6,6 +6,7 @@ import { DashboardComponent } from './dashboard.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { BalanceInfoComponent } from '../balance-info/balance-info.component';
+import { MyBetsInfoModule } from '../my-bets-info/my-bets-info.module';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { BalanceInfoComponent } from '../balance-info/balance-info.component';
     DashboardRoutingModule,
     MatCardModule,
     MatGridListModule,
+    MyBetsInfoModule
   ],
   exports: [
     DashboardComponent
